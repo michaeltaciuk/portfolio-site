@@ -1,8 +1,9 @@
 ---
-title: 'Python Book Review'
+title: 'Coastr'
 date: 'March 7, 2021'
 excerpt: 'In this review, we will be looking at the new Python book from Oriley'
 cover_image: '/images/posts/img2.jpg'
+website: 'https://coastr.io/'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

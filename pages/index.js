@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import Post from '../components/Post'
+import Footer from '../components/Footer'
 import { sortByDate } from '../utils'
 
 export default function Home({ posts }) {
@@ -17,6 +18,8 @@ export default function Home({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
+      
+      <Footer/>
     </div>
   )
 }
