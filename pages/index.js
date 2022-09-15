@@ -30,8 +30,6 @@ export async function getStaticProps() {
 
   // Get slug and frontmatter from posts
   const posts = files.map((filename) => {
-    // Create slug
-    const slug = filename.replace('.md', '')
 
     // Get frontmatter
     const markdownWithMeta = fs.readFileSync(
@@ -42,7 +40,6 @@ export async function getStaticProps() {
     const { data: frontmatter } = matter(markdownWithMeta)
 
     return {
-      slug,
       frontmatter,
     }
   })
