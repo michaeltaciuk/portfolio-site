@@ -5,7 +5,7 @@ export default function Post({ post }) {
     <div className='card'>
         <img src={post.frontmatter.cover_image} alt='' />
 
-        <div className='post-date'>Posted on {post.frontmatter.date}</div>
+        <div className='post-date'>{post.frontmatter.date}</div>
 
         <h3>{post.frontmatter.title}</h3>
 
@@ -13,7 +13,7 @@ export default function Post({ post }) {
 
         {post.frontmatter.website != null &&
             <Link href={post.frontmatter.website}>
-                <a className='btn'>Try It!</a>
+                <a className='btn'>Learn More</a>
             </Link>
         }
         
