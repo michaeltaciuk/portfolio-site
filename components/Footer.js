@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <div className="foot">
       <a href="mailto:michael@taci.uk" className="foot-link">michael@taci.uk</a>
-      <div>
+      <div className="foot">
         <Link href="https://github.com/michaeltaciuk" >
-            <a className="foot-link">Github</a>
+            <a className="foot-link">GitHub</a>
         </Link>
         <Link href="https://linkedin.com/in/michaeltaciuk">
-            <a className="foot-link">Linkedin</a>
+            <a className="foot-link">LinkedIn</a>
         </Link>
         <Link href="https://twitter.com/michael_taciuk">
             <a className="foot-link">Twitter</a>
