@@ -4,7 +4,6 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <div className="foot">
-      <div>
         <Link href="https://github.com/michaeltaciuk" >
             <a className="foot-link">GitHub</a>
         </Link>
@@ -14,7 +13,6 @@ export default function Footer() {
         <Link href="https://twitter.com/michael_taciuk">
             <a className="foot-link">Twitter</a>
         </Link>
-      </div>
     </div>
   )
 }
