@@ -1,7 +1,7 @@
 ---
 title: 'Coastr'
 date: 'May, 2022'
-excerpt: 'In this review, we will be looking at the new Python book from Oriley'
+excerpt: 'A React Native app that allows restaurant customers to order and pay through their phones'
 cover_image: '/images/posts/coastr.png'
 website: 'https://coastr.io/'
 ---
